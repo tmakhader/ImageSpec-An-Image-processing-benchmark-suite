@@ -37,7 +37,7 @@ void warp (int Img[ROWS][COLS], int Out[ROWS][COLS],  int Wx[4], int Wy[4])
         for(x = sx; x < ex; x+=0.5)  //looping over all x corrdinates of the input portion of image selected
         {
             destX = (multX*x);
-            destY = (multY*y);
+            destY = (multY*x);
             Out[(int)(destY+preY+0.5)][(int)(destX+preX)]=Img[(int)y][(int)(x+0.05)];
         }
     }
