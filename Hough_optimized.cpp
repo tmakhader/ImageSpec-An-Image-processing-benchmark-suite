@@ -71,7 +71,7 @@ void hough(bool Img[ROWS][COLS], int16_t thresh, int16_t &theta, int16_t &rho,
 	   {
 		Thresh4=Acc4[i][j];
 		Rho4=j;
-		Theta4=198+i;
+		Theta4=192+i;
 	   }
 	 }
 	}
